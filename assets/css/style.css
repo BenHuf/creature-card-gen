@@ -9,3 +9,26 @@ th {
 td { 
     padding: 2px;
 }
+
+.name {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+.inline {
+    display: inline;
+}
+
+.block {
+    display: block;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.w100 {
+    width: 100%;
+}
