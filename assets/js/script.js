@@ -63,7 +63,7 @@ function getApi() {
                     var reactions = results.reactions
 
 
-                    var $card = $('<div>').attr('id', [i]).addClass("border p-3 my-3 mx-3 col-10 col-md-8 col-lg-4").appendTo($container)
+                    var $card = $('<div>').attr('id', [i]).addClass("border w-100 p-3 my-3 mx-3 col-10 col-md-5").appendTo($container)
                     var $nameBlock = $('<div>').addClass("name-block border-bottom border-danger").appendTo($card)
                     var $statBlock = $('<div>').addClass("stat-block border-bottom border-danger").appendTo($card)
                     var $abilityScoreBlock = $('<div>').addClass("ability-table border-bottom border-danger").appendTo($card)
