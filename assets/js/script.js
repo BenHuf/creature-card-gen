@@ -1897,9 +1897,12 @@ $( function() {
 $("#search-form").submit(function(event) {
     event.preventDefault();
     var searchTerm = $("input[name=search-field").val();
-    console.log(searchTerm)
     var searchUrl = searchMonster + searchTerm
-    console.log(searchUrl)
+
+     if (!searchTerm) {
+         return false;
+     }
+     
     $(".creature-card").remove()
     createApiCards(searchUrl)
 })
