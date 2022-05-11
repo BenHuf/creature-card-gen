@@ -5,24 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>5e Creature Statblock Test</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="/users/benhuf/desktop/bootcamp/challenges/project-1/assets/images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/users/benhuf/desktop/bootcamp/challenges/project-1/assets/images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/users/benhuf/desktop/bootcamp/challenges/project-1/assets/images/favicon-16x16.png">
-    <link rel="manifest" href="/users/benhuf/desktop/bootcamp/challenges/project-1/assets/images/site.webmanifest">
-    <link rel="mask-icon" href="/users/benhuf/desktop/bootcamp/challenges/project-1/assets/images/safari-pinned-tab.svg" color="#e10000">
-    <link rel="shortcut icon" href="/users/benhuf/desktop/bootcamp/challenges/project-1/assets/images/favicon.ico">
-    <meta name="msapplication-TileColor" content="#da0404">
-    <meta name="msapplication-config" content="/users/benhuf/desktop/bootcamp/challenges/project-1/assets/images/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon-16x16.png">
+    <link rel="shortcut icon" href="./assets/images/favicon.ico">
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./assets/css/jquery-ui.css">
 </head>
 <body>
+    <header class="d-flex align-items-center justify-content-between p-3">
+        <h1 class="inline">Statblock Generator</h1>
+        <form id="search-form" class="inline">
+            <div class="form-group search-input inline">
+                <input id= "search-input" class="search-term btn btn-light text-left" type="text" name="search-field" placeholder="search" style="width: 45vw"/>
+            </div>
+            <div class="form-group inline" style="width: 10%;">
+                <button class="btn btn-dark mr-3" id="submit-search" type="submit">Search</button>
+            </div>
+        </form>
+    </header>
     <div id="container" class="d-flex row justify-content-center">
         
     </div>
 
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/jquery-ui.min.js"></script>
     <script type="text/javascript" src="./assets/js/script.js" ></script>
 </body>
 </html>
